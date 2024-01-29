@@ -1,0 +1,12 @@
+.SocialNetwork {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+button.social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 20px;
+}
