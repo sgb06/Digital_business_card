@@ -1,9 +1,11 @@
 import React from "react";
 import "./SocialNetworks.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 const SocialNetwork = () => {
   return (
-    <div className="SocialNetwork">
+    <div className="SocialNetworks">
       <button
         onClick={() =>
           window.open(
@@ -11,8 +13,9 @@ const SocialNetwork = () => {
             "_black)"
           )
         }
+        className="Button"
       >
-        Email
+        <FontAwesomeIcon icon={faGoogle} /> Email
       </button>
       <button
         onClick={() =>
@@ -21,8 +24,9 @@ const SocialNetwork = () => {
             "_black)"
           )
         }
+        className="Button-primary Button"
       >
-        linkedin
+        <FontAwesomeIcon icon={faLinkedin} /> linkedin
       </button>
     </div>
   );

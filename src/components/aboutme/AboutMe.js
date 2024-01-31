@@ -1,16 +1,13 @@
 import React from "react";
+import "./AboutMe.css";
 
-const AboutMe = () => {
+const AboutMe = ({ title, description }) => {
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>
-        "I am a person willing to learn new things every day, with good ability
-        to adapt to work environments, I enjoy working in teams and providing
-        possible solutions."
-      </p>
-      
+    <div className="AboutMe">
+      <h1 className="AboutMe_title">{title}</h1>
+      <p className="AboutMe_description">{description}</p>
     </div>
-
   );
 };
+
+export default AboutMe;

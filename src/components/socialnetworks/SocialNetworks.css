@@ -1,12 +1,22 @@
-.SocialNetwork {
+.SocialNetworks {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    margin-top: 20px;
 }
 
-button.social {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    border-radius: 20px;
+.Button {
+border-radius: 4px;
+padding: 4px 20px;
+font-size: 20px;
+border: none;
+cursor: pointer;
+}
+
+.Button-primary {
+background-color: #0B60B0;
+color: #FBF9F1;
+
+}
+.Button-primary:hover {
+    cursor : pointer;
 }
